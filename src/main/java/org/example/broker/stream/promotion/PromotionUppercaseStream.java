@@ -1,4 +1,4 @@
-package com.course.kafka.broker.stream.promotion;
+package org.example.broker.stream.promotion;
 
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.StreamsBuilder;

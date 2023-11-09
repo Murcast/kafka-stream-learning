@@ -1,4 +1,4 @@
-package com.course.kafka.message;
+package org.example.message;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;

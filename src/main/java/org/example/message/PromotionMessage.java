@@ -1,5 +1,4 @@
-package com.course.kafka.message;
-
+package org.example.message;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -12,7 +11,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class OrderReplyMessage {
+public class PromotionMessage {
 
-    private String orderNumber;
+    private String promotionCode;
 }
