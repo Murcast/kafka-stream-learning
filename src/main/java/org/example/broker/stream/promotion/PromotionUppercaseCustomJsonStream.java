@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.support.serializer.JsonSerde;
 
 @Slf4j
-@Configuration
+//@Configuration
 public class PromotionUppercaseCustomJsonStream {
 
     @Bean

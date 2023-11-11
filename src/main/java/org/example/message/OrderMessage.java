@@ -26,4 +26,19 @@ public class OrderMessage {
     private String itemName;
     private int price;
     private int quantity;
+
+    public OrderMessage copy() {
+        var orderMessage = new OrderMessage();
+
+        orderMessage.setOrderLocation(this.getOrderLocation());
+        orderMessage.setOrderNumber(this.getOrderNumber());
+        orderMessage.setCreditCardNumber(this.getCreditCardNumber());
+        orderMessage.setOrderDateTime(this.getOrderDateTime());
+        orderMessage.setItemName(this.getItemName());
+        orderMessage.setPrice(this.getPrice());
+        orderMessage.setQuantity(this.getQuantity());
+
+        return orderMessage;
+    }
+
 }
